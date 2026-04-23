@@ -1,0 +1,59 @@
+# Build directories
+build/
+cmake_build_debug/
+cmake_build_release/
+out/
+dist/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Compiled binaries and objects
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# Dependency-related
+*.wasm
+*.wasm.map
+/.cargo
+
+# Temporary files
+temp/
+*.tmp
+*.log
+
+# Node modules (if using npm/yarn for build tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# System files
+*.swp
+*.swo
+.DS_Store
+.AppleDouble
+.LSOverride
